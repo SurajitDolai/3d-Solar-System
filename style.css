@@ -1,0 +1,45 @@
+
+ :root {
+  --bg-color: #fffefe;
+  --text-color: #000000;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  --bg-color: #000000;
+  --text-color: #f5f5f5;
+}
+
+#toggleBtn{
+    font-size: 25px;
+    margin: 10px;
+    background-color: rgb(212, 65, 11);
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+
+#toggleBtn:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+#btn{
+    font-size: 25px;
+    margin: 20px 10px;
+    padding: 5px 10px;
+    background-color: rgb(209, 58, 3);
+    border-radius: 20px;
+    color: white;
+    border: none;  
+}
+#btn:hover{
+    background-color: rgb(210, 168, 44);
+    cursor: pointer;
+}
